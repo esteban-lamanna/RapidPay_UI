@@ -1,0 +1,34 @@
+<mat-sidenav-container>
+    <mat-sidenav #sidenav mode="side" opened>
+        <mat-nav-list>
+            <a href="#" mat-list-item>Menu Item 1</a>
+            <a href="#" mat-list-item>Menu Item 2</a>
+            <a href="#" mat-list-item>Menu Item 3</a>
+            <a href="#" mat-list-item>Menu Item 4</a>
+            <a href="#" mat-list-item>Menu Item 5</a>
+            <a href="#" mat-list-item>Menu Item 6</a>
+        </mat-nav-list>
+    </mat-sidenav>
+
+    <!-- <app-top-bar></app-top-bar>  -->
+    <mat-sidenav-content class="sidenav-content">
+        <mat-toolbar color="primary">
+            <button mat-icon-button (click)="sidenav.toggle()">
+                <mat-icon>menu</mat-icon>
+            </button>
+            <span>Rapid Pay</span>
+        </mat-toolbar>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam sed dui nec faucibus. Integer
+            quis metus quis ligula porttitor laoreet. Integer et euismod justo. Mauris in finibus ex. Vestibulum ante
+            ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras dignissim arcu at ante finibus
+            imperdiet. Aliquam sed mi non massa bibendum suscipit lobortis eu ante. Nam eget erat vestibulum, bibendum
+            quam a, tempor lacus. Nunc molestie turpis non auctor dictum. Nunc quis condimentum nibh. Nunc et diam a
+            odio ultrices maximus in vel metus. Sed dapibus neque ut massa porta, id malesuada erat consectetur.
+        </p>
+    </mat-sidenav-content>
+</mat-sidenav-container>
+
+<app-footer-bar>
+
+</app-footer-bar>
