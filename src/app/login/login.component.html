@@ -1,0 +1,18 @@
+<div class="body">
+<form  [formGroup] = "form"  class="form">
+<h1>Login</h1>
+
+    <mat-form-field class="full-width">
+      <mat-label>Username</mat-label>
+      <input autocomplete="off" formControlName="usuario" matInput placeholder="Username">
+    </mat-form-field>
+
+    <mat-form-field  class="full-width">
+        <mat-label>Password</mat-label>
+        <input autocomplete="off" type="password" matInput  formControlName="password" placeholder="Password">
+    </mat-form-field>
+
+    
+    <button mat-raised-button class="full-width" color="primary">Login</button>
+</form>
+</div>
