@@ -32,7 +32,7 @@ export class LoginComponent {
 
       setTimeout(() => {
         this._isLoading = false;
-        this._router.navigate(['users']);
+        this._router.navigate(['template']);
       }, 1500);
     }
     else {
