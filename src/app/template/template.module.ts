@@ -4,11 +4,13 @@ import { TemplateRoutingModule } from './template-routing.module';
 import { MaterialModule } from '../material/material.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { TemplateComponent } from './template.component';
+import { UserComponent } from './users/user/user.component';
 
 @NgModule({
   declarations: [
     NavbarComponent,
-    TemplateComponent
+    TemplateComponent,
+    UserComponent
   ],
   imports: [
     CommonModule,

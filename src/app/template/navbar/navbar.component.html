@@ -2,7 +2,12 @@
     <a routerLink="/template" mat-button> Rapid Pay</a>
 
     <span class="example-spacer"></span>
-    <button routerLink="/template/users" mat-button>Users</button>
+
+    <div *ngFor="let menu of _menuItems">
+        <button routerLink="{{menu.redirect}}" mat-button>{{menu.name}}</button>
+    </div>
+
+
     <span class="example-spacer"></span>
 
     <button mat-icon-button aria-label="Example icon-button with heart icon">
