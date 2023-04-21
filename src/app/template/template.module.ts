@@ -5,17 +5,21 @@ import { MaterialModule } from '../material/material.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { TemplateComponent } from './template.component';
 import { UserComponent } from './users/user/user.component';
+import { CreateUserComponent } from './users/create-user/create-user.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     NavbarComponent,
     TemplateComponent,
-    UserComponent
+    UserComponent,
+    CreateUserComponent
   ],
   imports: [
     CommonModule,
     TemplateRoutingModule,
-    MaterialModule
+    MaterialModule,
+    ReactiveFormsModule
   ]
 })
 

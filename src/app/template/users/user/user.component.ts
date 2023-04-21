@@ -4,7 +4,6 @@ import { User } from '../models/user';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import UsersService from '../users.service';
-import { MatTable } from '@angular/material/table';
 
 @Component({
   selector: 'app-user',

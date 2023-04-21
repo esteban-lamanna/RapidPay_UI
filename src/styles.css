@@ -15,3 +15,7 @@ body {
     margin-left: 3em;
     margin-right: 3em;
 }
+
+.example-spacer {
+    flex: 1 1 auto;
+}

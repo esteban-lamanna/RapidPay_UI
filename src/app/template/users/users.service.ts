@@ -7,6 +7,10 @@ import { User } from './models/user';
 })
 export default class UsersService implements OnInit {
 
+  add(user: User) {
+    this._users.unshift(user);
+  }
+
   constructor() {
 
   }
